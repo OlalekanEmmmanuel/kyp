@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "outfit";
+    src: url("./font/outfit-Light.woff2");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url("./font/outfit-Regular.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url("./font/outfit-Medium.woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url("./font/outfit-SemiBold.woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url("./font/outfit-Bold.woff2");
+    font-weight: 700;
+}
+
+
+@font-face {
+
+    font-family: "roboto";
+    src: url("./font/roboto-Light.woff2");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("./font/roboto-Regular.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("./font/roboto-Medium.woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("./font/roboto-SemiBold.woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("./font/roboto-Bold.woff2");
+    font-weight: 700;
+}
+
+@media screen and (min-width: 744px) {
+    section {
+        background: #312964;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .kry {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .krypto {
+        font-size: 20px;
+        font-weight: 600;
+        font-family: outfit;
+        color: #EBEBEB;
+    }
+
+    .ab {
+        display: flex;
+        gap: 60px;
+    }
+
+    .about {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: outfit;
+        color: #EBEBEB;
+    }
+
+    .butt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background-color: #312964;
+        color: #EBEBEB;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: outfit;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 10px;
+        border: none;
+    }
+
+    .div1 {
+        display: flex;
+        gap: 46px;
+    }
+
+    .discover {
+        font-size: 64px;
+        font-weight: 700;
+        font-family: Outfit;
+        color: #EBEBEB;
+        margin-top: 36px;
+    }
+
+    .rare {
+        color: #AED4DB;
+    }
+
+    .secure {
+        font-family: roboto;
+        font-size: 20px;
+        font-weight: 400;
+        color: #EBEBEB;
+        margin-top: 34px;
+    }
+
+    .buy {
+        background-color: #312964;
+        width: 151.5px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Outfit;
+        text-align: center;
+        color: #EBEBEB;
+        text-transform: uppercase;
+        border-radius: 30px;
+        border: none;
+    }
+
+    .sell {
+        width: 151.5px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Outfit;
+        text-align: center;
+        color: #EBEBEB;
+        text-transform: uppercase;
+        border-radius: 30px;
+        border-color: #8AD1D2;
+        background-color: transparent;
+    }
+
+    .nfts {
+        margin-top: 34px
+    }
+
+    .Other18 {
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .Featured {
+        font-size: 30px;
+        font-weight: 400;
+        font-family: roboto;
+        color: #EBEBEB;
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .image {
+        display: flex;
+        margin-top: 78px;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .div2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .analytics {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        color: #EBEBEB;
+        margin-top: 26px;
+        text-transform: uppercase;
+    }
+
+    .built {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: Outfit;
+        color: #EBEBEB;
+        padding-top: 26px;
+    }
+    .Use{
+        font-size: 20px;
+        font-weight: 400;
+        font-family: Roboto;
+        color: #EBEBEB;
+    }
+}
